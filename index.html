@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
+	
+</head>
+<body>
+	<div class="jumbotron">
+
+		<h1 class="text-center">Hangman Game</h1>
+		<br>
+		<div class="text-center">
+			<div class="row">
+			<div class="col-sm-6 dottedBorder">
+				<h2>The Puzzle</h2>
+				<div id="puzzleWrapper"></div> 
+				<br>
+				<div><span>Your previous guesses:</span></div>
+				<div id="previousWordsWrapper"><span></span></div>
+				<!-- <br> -->
+				<div id="totalMovesLeft">You have, 8 remaining guesses.</div>
+				<div><div id="winsCountDisplay"></div></div>
+			</div>
+			<div class="col-sm-6"><img id="imageEleContainer" src="assets/images/hangman0.png"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 dottedBorder"></div>
+			<div class="col-sm-6"></div>
+		</div>
+		</div>
+
+	</div>
+	<footer class="footer">
+      <div class="container">
+        <p class="text-muted">This awesome game was brought to you by: Brian Lang</p>
+      </div>
+    </footer>
+	<!-- <div id="wrapper">
+		<div class="row">
+			<div class="col-sm-6 dottedBorder"><h1>Hangman Game</h1></div>
+			<div class="col-sm-6"><img id="imageEleContainer" src="assets/images/hangman0.png"></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 dottedBorder"><div id="puzzleWrapper"></div></div>
+			<div class="col-sm-6"><div id="previousWordsWrapper"></div></div>
+		</div>
+	</div> -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
